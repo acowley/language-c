@@ -1,3 +1,12 @@
+# Important Note
+
+This is a fork of the `language-c` package to provide compatibility
+with OS X 10.9 (Mavericks). The original package is unmaintained,
+which breaks downstream clients such as `c2hs` on 10.9 when working
+with current versions of certain header files (e.g. OpenCL, OpenGL).
+
+The original README is below.
+
 = Language.C =
 
 Language.C is a parser and pretty-printer framework for C99 and the extensions of gcc.
